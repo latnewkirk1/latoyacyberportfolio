@@ -9,18 +9,24 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #004080;
+    background-color: #00274d; /* Dark blue for a cybersecurity-themed look */
     color: white;
-    padding: 15px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.5em;
+    font-weight: bold;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.8em;
+    font-weight: 400;
+    margin-top: 5px;
 }
+
 
 /* Section Styling */
 section {
