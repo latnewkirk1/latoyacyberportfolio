@@ -77,3 +77,11 @@ section {
     border-radius: 10px; /* Smooth rounded edges */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle depth effect */
 }
+/* Watermark Branding */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777; /* Light grey for subtle effect */
+    padding: 10px;
+    font-style: italic;
+}
