@@ -12,9 +12,10 @@ body {
 header {
     background-color: #00274d; /* Dark blue for a cybersecurity-themed look */
     color: white;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
@@ -24,9 +25,10 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: bold;
     color: #004a99;
+    letter-spacing: 1px;
     text-transform: uppercase; /* Adds emphasis */
 }
 
@@ -36,10 +38,10 @@ section {
     max-width: 800px; /* Limit width for readability */
     margin: 40px auto; /* Center sections */
     padding: 30px;
-    background-color: white;
+    background-color: linear-gradient(to right, #f9f9f9, #ffffff);
     border-radius: 8px;
     border: 2px solid #ddd; /* Light grey border */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Subtle depth effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Subtle depth effect */
      display: block; /* Ensures sections are visible */
 }
 
