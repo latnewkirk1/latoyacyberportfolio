@@ -1,176 +1,65 @@
-/* General Page Styling */
-html {
-    scroll-behavior: smooth;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latoya Cyber Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Latoya Newkirk</h1>
+    <h2>Cybersecurity Professional | Digital Forensics & Incident Response</h2>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#technical-skills">Technical Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-/* Set Professional Font & Background */
-body {
-    font-family: "Poppins", sans-serif;
-    background: linear-gradient(to right, #00274d, #0066cc);
-    color: white;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    word-wrap: break-word;
-    overflow-x: hidden;
+<section id="about">
+    <h2>About Me</h2>
+    <p>I graduated **summa cum laude** from the University of Maryland Global Campus (UMGC) with a **B.S. in Cybersecurity Management & Policies**, earning a **4.0 GPA**, and being recognized on the **President's and Dean’s Lists**—all while working full-time in management at Regions Bank.</p>
+    <p>My career transition from banking to cybersecurity has given me a unique advantage: I understand fraud detection from both the financial and technical sides, ensuring businesses stay resilient against cyber threats.</p>
+    <p>Currently, I am pursuing a **master's degree in Cybersecurity Management & Policies at UMGC**, along with a **graduate certificate in Digital Forensics and Cyber Investigations**—with an expected graduation date of **May 2026**.</p>
+    <p>I am also preparing for the **CISSP certification**, ensuring that I meet the highest standards in cybersecurity leadership, governance, and security architecture.</p>
+</section>
 
-/* Header Styling */
-header {
-    background-color: #00274d; /* Dark blue cybersecurity look */
-    color: white;
-    padding: 20px;
-    text-align: center;
-    border-radius: 8px;
-}
+<section id="projects">
+    <h2>Projects</h2>
+    <p><strong>Enterprise Security Architecture Capstone:</strong> Conducted a gap analysis, risk registry, and strategy implementation for PBI-FS, applying enterprise IT security principles.</p>
+    <p><strong>Web Application Security Scanner:</strong> A Python-based tool that identifies security flaws in web applications using OWASP methodology.</p>
+    <p><strong>Incident Response Playbook:</strong> A structured approach to handling cybersecurity threats, providing a repeatable process for forensic investigations.</p>
+    <p><strong>Log Analysis Automation:</strong> Python scripts designed to detect abnormal behavior in security logs, reducing manual investigation time.</p>
+</section>
 
-h1, h2 {
-    color: white; /* Keeps titles readable */
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    text-align: center;
-}
+<section id="technical-skills">
+    <h2>Technical Skills</h2>
+    <p><strong>Programming & Automation:</strong> Python for cybersecurity (log analysis, encryption, malware detection).</p>
+    <p><strong>Digital Forensics:</strong> Linux & Windows forensics, forensic scripting, and investigative techniques.</p>
+    <p><strong>Enterprise Security Architecture:</strong> Zero-trust principles, risk assessment, security policies.</p>
+    <p><strong>Threat Intelligence:</strong> Incident response, security log analysis, fraud detection.</p>
+    <p><strong>Web Security & Authentication:</strong> JWT, OAuth 2.0, API security implementation.</p>
+    <p><strong>Cloud & Network Security:</strong> Compliance models, risk mitigation strategies, security hardening.</p>
+    <p><strong>Version Control & Professional Branding:</strong> GitHub, GitHub Pages, cybersecurity portfolio development.</p>
+</section>
 
-/* Section Styling */
-section {
-    text-align: left;
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 30px;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.95);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    backdrop-filter: blur(8px);
-    overflow: visible;
-    box-sizing: border-box;
-    min-height: auto;
-    height: auto; /* Ensures sections expand properly */
-}
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you’d like to connect, feel free to reach out via email or LinkedIn!</p>
+    <p><strong>Email:</strong> <a href="mailto:latnewkirk@gmail.com">latnewkirk@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/latoya-newkirk-13854a2b6" target="_blank">Latoya Newkirk's LinkedIn</a></p>
+    <p><strong>GitHub:</strong> <a href="https://latnewkirk1.github.io/latoyacyberportfolio/" target="_blank">Latoya's Cyber Portfolio</a></p>
+    <p><strong>UMGC Merit Page:</strong> <a href="https://latoya.cyber.meritpages.com" target="_blank">View My Academic Honors</a></p>
+</section>
 
-/* Contact Me Section Styling */
-#contact {
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px; /* Space between elements */
-}
+<footer>
+    © 2025 Latoya Newkirk | Cybersecurity & Digital Forensics
+</footer>
+</body>
+</html>
 
-#contact ul {
-    list-style: none;
-    padding: 0;
-}
-
-#contact li {
-    margin: 10px 0;
-    font-size: 16px;
-}
-
-/* Navigation Bar */
-nav {
-    text-align: center;
-    padding: 15px;
-    background-color: #00274d;
-    border-radius: 8px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav a {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #ff4500;
-    text-decoration: underline;
-}
-
-/* Interactive Hover Effects for Links */
-a {
-    color: #004a99;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    color: #ff4500;
-    text-decoration: underline;
-    transition: 0.3s ease-in-out;
-}
-
-/* Buttons */
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 1em;
-    color: white;
-    background-color: #004a99;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease-in-out;
-}
-
-.button:hover {
-    background-color: #ff4500;
-}
-
-/* Footer Styling */
-footer {
-    text-align: center;
-    font-size: 0.9em;
-    color: #777;
-    padding: 10px;
-    font-style: italic;
-}
-
-/* Mobile Adjustments */
-@media screen and (max-width: 768px) {
-    section {
-        padding: 15px;
-        width: 90%;
-        max-width: 800px;
-        text-align: center;
-        margin: auto;
-        box-sizing: border-box;
-        overflow: visible;
-        min-height: auto;
-        height: auto; /* Ensures sections stretch to fit content */
-    }
-
-    #contact {
-        padding: 15px;
-        text-align: center;
-    }
-
-    ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding-left: 0;
-    }
-
-    li {
-        margin: 5px 10px;
-        white-space: nowrap;
-    }
-
-    #contact li {
-        font-size: 14px;
-    }
-}
