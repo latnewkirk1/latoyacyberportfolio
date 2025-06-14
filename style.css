@@ -36,3 +36,13 @@ section {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+/* Improve Text Layout */
+section {
+    text-align: left; /* Align text neatly */
+    max-width: 800px; /* Limit width for better readability */
+    margin: 20px auto; /* Center sections neatly */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
