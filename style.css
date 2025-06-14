@@ -50,6 +50,8 @@ body {
         max-width: 800px;
         text-align: center; /* Centers content for better readability */
         margin: auto; /* Keeps it inside the viewport */
+        box-sizing: border-box; /* Ensures no overflow */  
+        word-wrap: break-word;
     }
 }
 
