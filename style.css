@@ -8,9 +8,6 @@ body {
     padding: 0;
 }
 
-
-
-
 /* Header Styling */
 header {
     background-color: #00274d; /* Dark blue for a cybersecurity-themed look */
@@ -72,5 +69,33 @@ footer {
     color: #777; /* Light grey for subtle effect */
     padding: 10px;
     font-style: italic;
+}
+
+nav {
+    text-align: center;
+    padding: 15px;
+    background-color: #00274d;
+    border-radius: 8px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff4500;
+    text-decoration: underline;
 }
 
