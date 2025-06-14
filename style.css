@@ -1,14 +1,11 @@
 /* General Page Styling */
-/* Set Professional Font & Background */
+/* Set Professional Font */
 body {
     font-family: "Poppins", sans-serif;
-    background: url('shieldprotection333technologyss_generated.jpg') no-repeat center center fixed;
-    background-size: cover;
     color: white;
     margin: 0;
     padding: 0;
 }
-
 
 /* Header Styling */
 header {
@@ -38,13 +35,11 @@ section {
     max-width: 800px; /* Limit width for readability */
     margin: 20px auto; /* Center sections */
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency for readability */
+    background-color: white;
     border-radius: 8px;
     border: 2px solid #ddd; /* Light grey border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle depth effect */
 }
-
-
 
 /* Interactive Hover Effects for Links */
 a {
