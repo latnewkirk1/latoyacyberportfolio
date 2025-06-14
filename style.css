@@ -69,3 +69,11 @@ a:hover {
     text-decoration: underline; /* Add underline on hover */
     transition: 0.3s ease-in-out; /* Smooth transition */
 }
+/* Custom Section Borders */
+section {
+    border: 2px solid #ddd; /* Light grey border */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px; /* Smooth rounded edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle depth effect */
+}
