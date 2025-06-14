@@ -1,4 +1,7 @@
 /* General Page Styling */Add commentMore actions
+html {
+    scroll-behavior: smooth;
+}
 /* Set Professional Font & Background */
 body {
     font-family: "Poppins", sans-serif;
