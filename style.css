@@ -1,21 +1,25 @@
-/* General Page Styling */
-/* Set Professional Font */
+/* General Page Styling */Add commentMore actions
+/* Set Professional Font & Background */
 body {
+    font-family: "Poppins", sans-serif; /* Sleek and modern font */
+    background-color: #f4f4f4; /* Light grey for a clean look */
+    color: #222; /* Dark grey for readability */
     font-family: "Poppins", sans-serif;
-    color: #222; /* Dark gray for better visibility */
+    background: linear-gradient(to right, #00274d, #004a99); /* Sleek cybersecurity gradient */
+    color: white;
     margin: 0;
     padding: 0;
 }
+
 
 
 /* Header Styling */
 header {
     background-color: #00274d; /* Dark blue for a cybersecurity-themed look */
     color: white;
-    padding: 25px;
+    padding: 20px;
     text-align: center;
     border-radius: 8px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
@@ -26,30 +30,37 @@ h1 {
 
 h2 {
     font-size: 1.8em;
-    font-weight: bold;
-    color: #004a99;
-    letter-spacing: .05px;
-    text-transform: uppercase; /* Adds emphasis */
+    font-weight: 400;
+    margin-top: 5px;
+    color: #004a99; /* Ensuring consistency */
 }
+
+
 
 /* Section Styling */
 section {
-    text-align: left; /* Align text neatly */
-    max-width: 750px; /* Limit width for readability */
-    margin: 30px auto; /* Center sections */
-    padding: 25px;
-    background-color: linear-gradient(to right, #f9f9f9, #ffffff);
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
     border-radius: 8px;
-    border: 2px solid #ccc; /* Light grey border */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle depth effect */
-     display: block; /* Ensures sections are visible */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-p, ul, h2, h1 {
-    color: #222 !important; /* Forces visibility */
+/* Improve Text Layout */
+section {
+    text-align: left; /* Align text neatly */
+    max-width: 800px; /* Limit width for better readability */
+    margin: 20px auto; /* Center sections neatly */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-
+/* Add Dividers Between Sections */
+section {
+    border-bottom: 2px solid #ddd; /* Creates a subtle line between sections */
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
 /* Interactive Hover Effects for Links */
 a {
     color: #004a99; /* Cybersecurity-blue */
@@ -62,7 +73,14 @@ a:hover {
     text-decoration: underline; /* Add underline on hover */
     transition: 0.3s ease-in-out; /* Smooth transition */
 }
-
+/* Custom Section Borders */
+section {
+    border: 2px solid #ddd; /* Light grey border */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px; /* Smooth rounded edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle depth effect */
+}
 /* Watermark Branding */
 footer {
     text-align: center;
