@@ -38,8 +38,9 @@ section {
     border-radius: 10px;
     border: 2px solid #ddd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-    overflow: hidden;
+    overflow: visible;
     box-sizing: border-box;
+    min-height: auto
 }
 
 /* Contact Me Section Styling */
@@ -139,7 +140,8 @@ footer {
         text-align: center;
         margin: auto;
         box-sizing: border-box;
-        overflow: hidden;
+        overflow: visible;
+        min-height: auto;
     }
 
     #contact {
