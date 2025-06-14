@@ -32,32 +32,20 @@ h2 {
     color: #004a99; /* Ensuring consistency */
 }
 
-
-
 /* Section Styling */
 section {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-/* Improve Text Layout */
-section {
     text-align: left; /* Align text neatly */
-    max-width: 800px; /* Limit width for better readability */
-    margin: 20px auto; /* Center sections neatly */
+    max-width: 800px; /* Limit width for readability */
+    margin: 20px auto; /* Center sections */
     padding: 20px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency for readability */
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ddd; /* Light grey border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle depth effect */
 }
-/* Add Dividers Between Sections */
-section {
-    border-bottom: 2px solid #ddd; /* Creates a subtle line between sections */
-    padding-bottom: 20px;
-    margin-bottom: 30px;
-}
+
+
+
 /* Interactive Hover Effects for Links */
 a {
     color: #004a99; /* Cybersecurity-blue */
@@ -70,14 +58,7 @@ a:hover {
     text-decoration: underline; /* Add underline on hover */
     transition: 0.3s ease-in-out; /* Smooth transition */
 }
-/* Custom Section Borders */
-section {
-    border: 2px solid #ddd; /* Light grey border */
-    padding: 20px;
-    margin: 20px auto;
-    border-radius: 10px; /* Smooth rounded edges */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle depth effect */
-}
+
 /* Watermark Branding */
 footer {
     text-align: center;
