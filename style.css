@@ -2,10 +2,11 @@
 /* Set Professional Font */
 body {
     font-family: "Poppins", sans-serif;
-    color: white;
+    color: #222; /* Dark gray for better visibility */
     margin: 0;
     padding: 0;
 }
+
 
 /* Header Styling */
 header {
@@ -40,6 +41,10 @@ section {
     border: 2px solid #ddd; /* Light grey border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle depth effect */
 }
+p, ul {
+    color: #222; /* Ensures all standard text is readable */
+}
+
 
 /* Interactive Hover Effects for Links */
 a {
