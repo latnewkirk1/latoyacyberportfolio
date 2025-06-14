@@ -6,8 +6,8 @@ html {
 /* Set Professional Font & Background */
 body {
     font-family: "Poppins", sans-serif;
-    background: linear-gradient(to right, #001f3f, #004a99);
-    color: #00274d;
+    background: linear-gradient(to right, #00274d, #0066cc);
+    color: white;
     margin: 0;
     padding: 0;
     display: flex;
@@ -16,7 +16,6 @@ body {
     justify-content: center;
     word-wrap: break-word;
     overflow-x: hidden;
-}
 
 /* Header Styling */
 header {
